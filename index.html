@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Scrolling Nav - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#ghs">GHS Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#b2">B2 Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#intranet">Intranet Develop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#coProject">CO Project</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>경력 기술서</h1>
+    </div>
+  </header>
+
+  <section id="ghs">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>1. 홈플러스 GHS+(Mart와 Mall통합) 프로젝트</h2>
+		  <br><br>
+          <h6>기간 : 2017.06 ~ 2017.12 (7개월)</h6>
+          <h6>개발방법론 : Waterfall</h6> 
+		  <ul>
+			<br>
+			<li>기존 사이트가 Homeplus Mart와 Homeplus Mall로 분리되어 운영관리된 사이트를 <br>하나의 사이트로 합치는 개발사업</li>
+			<li>관리자 업무 공통화 및 기존 데이터 이관에 따른 쿼리 및 UI 수정 및 개선 (Back Office, Front Office)</li>
+          </ul>
+		  <br>
+		  <h4>1.1 개발담당 부분</h4>
+		  <ul>
+			<br>
+			<li>BO : 1:1문의관리, 전시관리, 상품평관리, 입점업체 관리</li>
+			<li>FO : 회원(마이페이지 영역)</li>
+			<li>배송지관리, 배송평가, 최근구매한상품, 찜한상품, 참여한 이벤트, 1:1 문의, 상품평</li>
+		  </ul>
+		  <br>
+		  <h4>1.2 결과</h4>
+		  <ul>
+			<br>
+			<li>관리자 사이트 운영 및 관리에 효율화</li>
+			<li>분리된 사이트를 하나의 사이트로 합침으로 인해 비용 감소</li>
+			<li>Mall상품과 Mart상품을 동시에 보여주고, 구매할수 있어 이용자 구매유도 촉진, 편리함 증대</li>
+		  </ul>
+		  <br>
+		  <h4>1.3 사용한 언어 및 툴</h4>
+		  <ul>
+			<br>
+			<li>java, struts, jsp, js, eclipse, oracle, toad, svn, jenkins</li>
+		  </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="b2" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>2. 롯데백화점 B2 프로젝트</h2>
+		  <br><br>
+          <h6>기간 : 2018.01 ~ 2018.11 (11개월)</h6>
+          <h6>개발방법론 : MSA</h6> 
+		  <ul>
+			<br>
+			<li>개발된 소스가 오래되어 신규, 정기 이벤트 등록 및 관리에 어려움이 생김</li>
+			<li>BO에 MD가 이벤트 등록시 프로세스(등록, 승인, 반려, 일괄처리)가 필요했음.</li>
+          </ul>
+		  <br>
+		  <h4>2.1 개발담당 부분</h4>
+		  <ul>
+			<br>
+			<li>판촉/이벤트 파트</li>
+			<li>API, BO, FO, MO 개발</li>
+			<li>API에서는 BO, FO, MO의 모든 요청을 RESTful API방식으로 처리</li>
+		  </ul>
+		  <br>
+		  <h4>2.2 개발담당 상세</h4>
+		  <ul>
+			<br>
+			<li>공통 게시글 , 공통 전시화면 템플릿</li>
+			<li>상품즉석할인, 스마트픽할인</li>
+			<li>영수증 이벤트, 바로방문 이벤트</li>
+			<li>BO 이벤트 수동응모(영수증 번호 생성 및 검증 암,복호화 과정 포함)</li>
+			<li>이벤트 기본정보, 타겟정보, 제공조건, 혜택정보, 전시정보, 공통(쿠폰,게시글,FAQ), 승인정보</li>
+			<li>응모자목록, 추첨유형에 따른 응모자 추첨(랜덤,확률), 당첨자목록, 지급관리, 현황관리 </li>
+		  </ul>
+		  <br>
+		  <h4>2.3 결과</h4>
+		  <ul>
+			<br>
+			<li>판촉 및 이벤트 관리운영 효율화</li>
+			<li>신규 및 정기 이벤트를 다수 등록, 대처 가능하여 판촉 효과 상승</li>
+		  </ul>
+		  <br>
+		  <h4>2.4 사용한 언어 및 툴</h4>
+		  <ul>
+			<br>
+			<li>java, thymeleaf, js, spring boot, sts, mybatis, mysql, aws, auroraDB, dynamoDB, git, jenkins, websquare</li>
+		  </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="intranet">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>3. 회사 인트라넷 추가개발 및 유지보수</h2>
+		  <br><br>
+          <h6>기간 : 2018.12 ~ 2019.01 (2개월)</h6>
+		  <br>
+		  <h4>3.1 개발담당 부분</h4>
+		  <ul>
+			<br>
+			<li>회사 홈페이지 포트폴리오 관리자 페이지 개발</li>
+			<li>기상청 opanAPI 데이터 활용 날씨정보 추가 갱신</li>
+			<li>연차(신규입사자 한달만근연차, 이월연차) 관련 프로시저 생성 및 오라클 잡 스케쥴러 등록</li>
+		  </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="coProject" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>4. 홈플러스 CO(창고형 매장 개발) 프로젝트</h2>
+		  <br><br>
+          <h6>기간 : 2019.02 ~ 현재 진행중</h6>
+          <h6>개발방법론 : Waterfall</h6> 
+		  <ul>
+			<br>
+			<li>코스트코, 이마트 트레이더스처럼 홈플러스 온라인 창고형매장을 구축하기 위한 개발사업</li>
+			<li>현재 관리자 BO 재무관련 업무 개발 진행 중</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; 이상현(shlee0882) 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
