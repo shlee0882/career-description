@@ -46,6 +46,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skStoaProject">SK STOA Project</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#lotteOnProject">Lotte On Project</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -283,6 +286,54 @@
         <ul>
         <br>
           <li>java, velocity, js, spring, sts, oracle, toad, svn, jenkins</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="lotteOnProject">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>7. 롯데온 슈퍼통합 프로젝트</h2>
+      <br><br>
+          <h6>기간 : 2020.07 ~ 2020.11 (5개월)</h6>
+          <h6>개발방법론 : MSA</h6> 
+          <br><br><h4>7.1 개발담당 부분</h4>
+        <ul>
+          <br>
+          <li>주문서 FO, MO 개발</li>
+          <br>
+          <li>장보기 주문서 배송회차 조회</li>
+            - 타 MSA API (배송회차 API, 스마트픽 API, 공통 휴일정보API) 조회
+          <br>
+            - 일일 구매한도 조회, 회차 CAPA, 시간에 따른 주문마감 처리 로직 적용
+          <br><br>
+          <li>장보기 주문서 배송회차 선택</li>
+            - 회차유형 및 시간에 따른 프로모션 API, 배송비 API 재조회 주문서 적용
+          <br><br>
+          <li>스마트픽 전환</li>
+            - 스마트픽(스토어픽, 크로스픽) 선택에 따른 배송회차 재조회 
+          <br><br>
+          <li>슈퍼 예약순차상품, 상시지정상품 캘린더 개발</li>
+            - 각 상품의 희망배송일을 계산하여 교집합된 희망배송일을 DatePicker캘린더UI에서 보여주고<br>
+            선택한 날짜에 따른 배송회차 재조회<br>
+            - 희망배송일에 만족하지 못한다면 장바구니 리다이렉트 로직처리
+          <br><br>
+        </ul>
+        <br>
+        <h4>6.2 오픈된 사이트</h4>
+        <br>
+        <ul>
+          <li><a href="https://www.lotteon.com/p/order/cart/viewCart" target="_blank">[장바구니] https://www.lotteon.com/p/order/cart/viewCart</a></li>
+          <li><a href="https://www.lotteon.com/p/order/orderSheet/orders" target="_blank">[주문서] https://www.lotteon.com/p/order/orderSheet/orders</a></li>
+        </ul>
+        <br>
+        <h4>6.3 사용한 언어 및 툴</h4>
+        <ul>
+        <br>
+          <li>java8(stream, lambda), Vuejs, spring boot, intelliJ, git, mybatis<br>
+              dbeaver, aurora db(mysql), webflux, dynamo db, step function, jenkins</li>
         </ul>
         </div>
       </div>
