@@ -49,6 +49,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#lotteOnProject">Lotte On Project</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#adtCapsProject">ADT CAPS Project</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -339,7 +342,60 @@
       </div>
     </div>
   </section>
-  
+  <section id="adtCapsProject" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>8. SK M&S ADT캡스 고도화 프로젝트</h2>
+      <br><br>
+          <h6>기간 : 2020.12 ~ 2021.04 (4개월)</h6>
+          <h6>개발방법론 : Waterfall</h6> 
+          <br><br><h4>8.1 개발담당 부분</h4>
+        <ul>
+          <br>
+          <li>웹 로그인, 메인, 영상상세, 스마트픽, 전체뷰어 개발</li>
+          <br>
+          <li>로그인/로그아웃 구현</li>
+            - spring security, login success/fail handler session 사용
+          <br><br>
+          <li>메인</li>
+            - 1,4,9 분할 카메라 그룹 영상 조회<br>
+            - 즐겨찾기 및 카메라 그룹의 실시간 영상 재생<br>
+            - 카메라 정보 노출 및 영상 상세 연결<br>
+            - 분할된 카메라 페이징 작업
+          <br><br>
+          <li>영상 상세</li>
+            - 영상 재생/일시중지/중지<br>
+            - 배속재생/영상캡쳐 파일 다운로드/전체화면 기능 구현
+          <br><br>
+          <li>스마트픽</li>
+            - 1시간마다 제공되는 카메라 썸네일 api를 호출하여 10*6 이미지를 가져옴<br>
+            - 10*6 이미지를 60번 잘라 이미지 60개를 만들고 각 이미지를 연결하여<br>
+            움직이는 이미지 gif효과가 나타날수 있게 구현 <br>
+            - 잘라진 썸네일 이미지는 60개를 모두 펼쳐볼수 있으며<br>
+            각 이미지 별로 binary값을 비교하여 이미지 변화도에 특정 허들값이 넘어갈 시<br> 
+            이벤트가 발생했다고 판단하여 그 시간에 대한 이미지 장면을 필터하여 볼수 있는<br>
+            스마트필터 구현
+          <br><br>
+          <li>전체화면 뷰어 구현</li>
+            - 1,4,9 분할 영상 과거 날짜 선택 및 30초 이전, 30초 이후의 영상 동시제어 및 배속재생 구현
+          <br><br>
+          <li>공통 GNB 영역</li>
+            - [클라우드/녹화기/카메라]의 즐겨찾기,이름,순서 정보 [추가/조회/변경/삭제] 기능 구현
+          <br><br>
+        </ul>
+        <br>
+        <h4>8.3 사용한 언어 및 툴</h4>
+        <ul>
+        <br>
+          <li>java11(stream, lambda, completableFuture), vuejs, thymeleaf, spring boot<br> 
+              , gradle, mysql, intelliJ, git, mybatis, dbeaver, mysql, jenkins</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
